@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User info"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:textColor="#000"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint=" Enter Name"
+        android:textColor="#000"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="16px"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textColor="#000"
+        android:hint=" Enter Email"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="16px"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint=" Enter Password"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="16px"/>
+
+    <EditText
+        android:id="@+id/contact"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint=" Enter contact"
+        android:textColor="#000"
+        android:drawableLeft="@drawable/phone"
+        android:drawablePadding="16px"/>
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_margin="25dp"
+        android:text="send"
+    />
+
+</LinearLayout>
